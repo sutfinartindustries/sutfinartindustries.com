@@ -5,7 +5,7 @@
   href: "/contact/"
 
 - title: "More"
-  subcategories:
+  external-subcategories:
     - subtitle: "eHawkey.com"
       subhref: "http://ehawkey.com"
     - subtitle: "MarkOldlandArt.com"
