@@ -1,0 +1,29 @@
+---
+layout: page
+---
+
+<div class="container">
+	<h1>{{ page.title }}</h1>
+	<ul class="media-list">
+{% for p in site.pages %}
+		{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture num_parts %}{{ url_parts | number_of_words }}{% endcapture %}
+		{% capture p_url_parts %} {{ p.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
+		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
+		<li class="media">
+			<a class="pull-left" href="{{ p.url }}">
+				<img class="media-object" src="/images{{ p.url }}{{ p.thumbnail }}">
+			</a>
+			<div class="media-body">
+				<a href="{{ p.url }}">
+					<h4 class="media-heading">{{ p.title }}</h4><p>{{p.description}}</p>
+				</a>
+			</div>
+		</li>
+		{% endif %}
+{% endfor %}
+
+
+	</ul>
+</div>

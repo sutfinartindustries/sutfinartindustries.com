@@ -1,0 +1,70 @@
+.navbar {
+	margin-bottom:0;
+}
+.jumbotron {
+	margin-top:0;
+	margin-bottom:50px;
+	padding-top: 15px;
+	background-color: #222;
+}
+.jumbotron h1, .jumbotron p {
+	text-align: center;
+	color:#999;
+}
+.jumbotron h1 {
+	margin-top: 3px;
+	color:#fff;
+}
+.jumbotron img {
+	margin: 0 auto;
+	display: block;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom:0;
+}
+/* Center align the text within the three columns */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+  color: #fff;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.img-thumbnail {
+
+}
+/* Featurettes
+------------------------- */
+/* Thin out the marketing headings */
+.featurette-divider {
+  margin: 10px 0 40px; /* Space out the Bootstrap <hr> more */
+  border-color: #111;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  font-size: 50px;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .featurette-heading {
+	margin-top: 120px;
+  }
+}
+.featurette {
+	margin-bottom: 20px;
+}
+.featurette p a {
+	color: #940b10;
+}

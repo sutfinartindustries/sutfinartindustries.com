@@ -1,0 +1,23 @@
+
+- title: "Home"
+  href: "/index.html"
+
+- title: "Visual Art"
+  href: "/visual-art/"
+  subcategories:
+    - subtitle: "Design"
+      subhref: "/visual-art/design/"
+    - subtitle: "Illustrations"
+      subhref: "/visual-art/illustrations/"
+    - subtitle: "Ink"
+      subhref: "/visual-art/ink/"
+    - subtitle: "Murals"
+      subhref: "/visual-art/murals/"
+    - subtitle: "Painting"
+      subhref: "/visual-art/painting/"
+
+- title: "Projects"
+  href: "/projects/"
+
+- title: "Custom Signs"
+  href: "/custom-signs/"

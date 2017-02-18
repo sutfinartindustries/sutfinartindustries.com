@@ -1,0 +1,17 @@
+.links {
+	margin:25px 0;
+}
+.links a img {
+	margin:3px;
+	max-height: 100px;
+	max-width: 100%;
+}
+h2 {
+	color:#fff;
+	margin:0 0 20px;
+}
+p {
+	color: #bbb;
+	font-size: medium;
+	max-width: 460px;
+}

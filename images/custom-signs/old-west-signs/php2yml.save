@@ -1,0 +1,4 @@
+my_array=( $ls -1v *.jpg) )
+for f in $my_array ; do echo "
+-image: $f
+ title:" ; done

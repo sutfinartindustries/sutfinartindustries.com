@@ -1,0 +1,62 @@
+---
+layout: page
+---
+<link rel="stylesheet" href="{{ "/css/sai-contact.css" | relative_url }}">
+<div class="container">
+  <h1>Contact</h1>
+  <div class="row">
+    <div id="messagebox"></div>
+    <form role="form" action="{% if page.contact_form != null %}{{ page.contact_form }}{% else %}{{ site.contact_form }}{% endif %}" method="POST">
+    <div class="col-md-6">
+      <div class="well well-sm"><strong><i class="glyphicon glyphicon-ok form-control-feedback"></i> Required Field</strong></div>
+      <div class="form-group">
+      <label for="InputName">Your Name</label>
+      <div class="input-group">
+        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name">
+        <span class="input-group-addon"></span></div>
+      </div>
+      <div class="form-group">
+      <label for="InputEmail">Your Email</label>
+      <div class="input-group">
+        <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email">
+        <span class="input-group-addon"></span></div>
+      </div>
+      <div class="form-group">
+      <label for="InputPhone">Your Phone Number</label>
+      <div class="input-group">
+        <input type="tel" class="form-control" id="InputPhone" name="InputPhone" placeholder="Enter Phone Number"  >
+        <span class="input-group-addon"></span></div>
+      </div>
+            <div class="form-group">
+      <label for="InputMessage">Message</label>
+      <div class="input-group"
+  >
+        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Enter Message" maxlength="1000" required></textarea>
+        <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span></div>
+      </div>
+      <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right"><br><br>
+    </div>
+    </form>
+    <div class="col-md-5 col-md-push-1">
+      <address>
+  <!-- <a href="tel:+">Phone: XXX-XXX-XXXX</a><br> -->
+  <h4><a href="mailto:contact@sutfinartindustries.com">Email: contact@sutfinartindustries.com</a></h4>
+</address>
+<!-- Script for facebook-->
+<!-- <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> -->
+<!--End Facebook Script -->
+<div class="fb-like" data-href="{{ site.data.socials}}" data-send="false" data-width="320" data-show-faces="true" data-font="tahoma" data-colorscheme="dark"></div><br><br>
+<a href="https://www.facebook.com/sutfinart" target="_blank"><img src="/img/social-media-icons/f_logo.png" width="30" height="30" title="Facebook" alt="Facebook"/></a>
+<a href="http://www.linkedin.com/in/sutfinart" target="_blank"><img src="/img/social-media-icons/linkedin.png" width="34" height="30" title="Linkedin" alt="Linkedin"/></a>
+<a href="https://picasaweb.google.com/114188942752912022993" target="_blank"><img src="/img/social-media-icons/picasa.png" width="30" height="30" title="Picasa" alt="Picasa"/></a>
+
+</div>
+</div>
+</div>

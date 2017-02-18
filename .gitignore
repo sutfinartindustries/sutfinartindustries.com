@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+css/bootstrap.min.css
+js/bootstrap.min.js
+js/jquery.min.js
+notes

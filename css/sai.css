@@ -1,0 +1,90 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-bottom: 40px;
+  color: #999;
+  background-color: #222;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover{
+	color: #940b10;
+}
+.breadcrumb {
+	margin-top: 10px;
+	background-color: #111;
+}
+h1,
+.media-body h4 {
+	color:#fff;
+	margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+.media {
+	background-color: #111;
+	border-radius: 4px;
+	padding:10px;
+}
+@media (min-width:425px) {
+  .media-body {
+    margin:0;
+    min-width:200px;
+  }
+}
+@media (max-width:424px) {
+  .media-body {
+    margin:0;
+    width:100%;
+  }
+  .media-object {
+    margin-bottom:15px;
+  }
+}
+.media-body p {
+	color: #bbb;
+	font-size: medium;
+}
+.breadcrumb a {
+	color: #fff;
+}
+.media-body a:hover {
+	text-decoration: none;
+}
+a {
+	color:#940b10;
+}
+a:hover,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover,
+.breadcrumb .active,
+.breadcrumb > li + li:before,
+footer a,
+.media-body h4:hover {
+    color: #940b10;
+    text-decoration: none;
+}
+.dropdown-menu li a:hover {
+	background-color: #ccc;
+}
+footer {
+	margin-top: 20px;
+}
+footer a:hover {
+	color:#940b10;
+	text-decoration: underline;
+}
+.jumbotron p {
+	color:#090909;
+
+}
+.jumbotron h1 {
+	color: #666;
+}
+.btn-default:hover {
+	background-color: #ccc;
+}
+ol.breadcrumb li a {
+  text-transform: capitalize;
+}

@@ -1,0 +1,27 @@
+---
+layout: page
+---
+<!-- Gallery CSS -->
+<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="/css/blueimp-gallery-indicator.css">
+<link rel="stylesheet" href="/css/sai-image-gallery.css">
+<div class="container">
+			<h2>{{ page.title }}</h2>
+		<p>{{ page.description }}</p>	<h4>Click on any image to launch gallery</h4>
+	<!-- The container for the list of gallery images -->
+	<div id="links" class="links">
+    {% for art in page.arts %}
+	<a href="/images{{ page.url }}{{ art.image }}" title="{{ art.title }}"><img src="/images{{ page.url }}{{ art.image }}" alt="{{ art.title }}"></a>
+		{% endfor %}
+  </div>
+	<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+		<div class="slides"></div>
+		<h3 class="title"></h3>
+		<a class="prev">‹</a>
+		<a class="next">›</a>
+		<a class="close">×</a>
+		<a class="play-pause"></a>
+		<ol class="indicator"></ol>
+	</div>
+</div>
