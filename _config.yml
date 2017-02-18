@@ -34,8 +34,7 @@ exclude:
   - js/jquery.min.js
   - js/bootstrap.min.js
 
-collections:
-  - galleries
+galimgdir: /images
 
 contact_form: "https://formspree.io/contact@sutfinartindustries.com"
 
