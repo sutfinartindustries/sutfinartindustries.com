@@ -20,7 +20,7 @@ layout: compress
     <!-- <script src="/js/bootstrap.min.js"></script> -->
     {% if page.layout == 'gallery' %}
     <!-- Gallery Scripts -->
-<script src="/js/blueimp-gallery.min.js"></script>
+<script src="{{ "/js/blueimp-gallery.min.js" | relative_url }}"></script>
 <script>
 document.getElementById('links').onclick = function (event) {
     event = event || window.event;
