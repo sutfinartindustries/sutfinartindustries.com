@@ -17,8 +17,8 @@ title: Sutfin Art Industries
 email: contact@sutfinartindustries.com
 description: > # this means to ignore newlines until "baseurl:"
   small business offering a variety of art and design services
-baseurl: "/sutfinartindustries.com" # the subpath of your site, e.g. /blog
-url: "https://sutfinartindustries.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sutfinartindustries.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  sutfinartindustries
 
