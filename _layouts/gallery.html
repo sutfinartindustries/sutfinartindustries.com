@@ -2,16 +2,16 @@
 layout: page
 ---
 <!-- Gallery CSS -->
-<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
-<link rel="stylesheet" href="/css/blueimp-gallery-indicator.css">
-<link rel="stylesheet" href="/css/sai-image-gallery.css">
+<link rel="stylesheet" href="{{ "/css/blueimp-gallery.min.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/blueimp-gallery-indicator.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/sai-image-gallery.css" | relative_url }}">
 <div class="container">
 			<h2>{{ page.title }}</h2>
 		<p>{{ page.description }}</p>	<h4>Click on any image to launch gallery</h4>
 	<!-- The container for the list of gallery images -->
 	<div id="links" class="links">
     {% for art in page.arts %}
-	<a href="/images{{ page.url }}{{ art.image }}" title="{{ art.title }}"><img src="/images{{ page.url }}{{ art.image }}" alt="{{ art.title }}"></a>
+	<a href="{{ "/images"{{ page.url }}{{ art.image }} | relative_url }}" title="{{ art.title }}"><img src="{{ "/images"{{ page.url }}{{ art.image }}  | relative_url }}" alt="{{ art.title }}"></a>
 		{% endfor %}
   </div>
 	<!-- The Gallery as lightbox dialog, should be a child element of the document body -->

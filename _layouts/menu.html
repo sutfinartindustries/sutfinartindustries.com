@@ -12,11 +12,11 @@ layout: page
 		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
 		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
 		<li class="media">
-			<a class="pull-left" href="{{ p.url }}">
-				<img class="media-object" src="/images{{ p.url }}{{ p.thumbnail }}">
+			<a class="pull-left" href="{{ p.url | relative_url }}">
+				<img class="media-object" src="{{ "/images"{{ p.url }}{{ p.thumbnail }} | relative_url }}">
 			</a>
 			<div class="media-body">
-				<a href="{{ p.url }}">
+				<a href="{{ p.url | relative_url }}">
 					<h4 class="media-heading">{{ p.title }}</h4><p>{{p.description}}</p>
 				</a>
 			</div>
