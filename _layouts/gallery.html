@@ -11,7 +11,7 @@ layout: page
 	<!-- The container for the list of gallery images -->
 	<div id="links" class="links">
     {% for art in page.arts %}
-	<a href="{{ site.galimgdir }}{{ page.permalink }}{{ art.image }}" title="{{ art.title }}"><img src="{{ site.galimgdir }}{{ page.permalink }}{{ art.image }}" alt="{{ art.title }}"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ page.permalink }}{{ art.image }}" title="{{ art.title }}"><img src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ page.permalink }}{{ art.image }}" alt="{{ art.title }}"></a>
 		{% endfor %}
   </div>
 	<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
