@@ -13,7 +13,7 @@ layout: page
 		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
 		<li class="media">
 			<a class="pull-left" href="{{ p.url | relative_url }}">
-				<img class="media-object" src="{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
+				<img class="media-object" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
 			</a>
 			<div class="media-body">
 				<a href="{{ p.url | relative_url }}">
