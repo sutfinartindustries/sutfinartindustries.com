@@ -20,7 +20,7 @@ arts:
 - image: 4.the-light-house-cottage-sign.jpg
   title: "The Light House Cottage Sign"
 
-- image: 5.crow's-nest-cottage-sign.jpg
+- image: 5.crows-nest-cottage-sign.jpg
   title: "Crow's Nest Cottage Sign"
 
 - image: 6.surf-shack-sign.jpg
