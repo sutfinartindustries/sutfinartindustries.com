@@ -27,16 +27,17 @@ h2 {
 	border-radius: 4px;
 	padding:10px;
 }
-@media (min-width:425px) {
+@media (min-width:455px) {
   .media-body {
     margin:0;
-    min-width:200px;
   }
 }
-@media (max-width:424px) {
+@media (max-width:454px) {
   .media-body {
     margin:0;
+    display: block;
     width:100%;
+    max-width: 360px;
   }
   .media-object {
     margin-bottom:15px;
