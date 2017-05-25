@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 css/bootstrap.min.css
+css/bootstrap.min.css.map
 js/bootstrap.min.js
 js/jquery.min.js
 notes
