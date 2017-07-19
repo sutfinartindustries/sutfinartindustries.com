@@ -33,7 +33,7 @@
   text-align: center;
 }
 .marketing h2 {
-  font-weight: normal;
+  font-weight: 700;
   color: #fff;
 }
 .marketing .col-lg-4 p {
@@ -41,7 +41,7 @@
   margin-left: 10px;
 }
 .img-thumbnail {
-
+	width:300px;
 }
 /* Featurettes
 ------------------------- */
@@ -59,7 +59,6 @@
 }
 @media (min-width: 992px) {
   .featurette-heading {
-	margin-top: 120px;
   }
 }
 .featurette {
