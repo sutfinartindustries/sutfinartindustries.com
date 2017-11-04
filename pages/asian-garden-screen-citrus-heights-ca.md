@@ -3,6 +3,7 @@ layout: gallery
 title: "Asian Garden Screen - Citrus Heights, CA"
 description: "This mural was created for the high roller room at the Lucky Derby Casino. The over-sized asian style screen was designed to be mounted on the wall with 3 dimensional corners. Once it was built, the mural was painted directly onto the wooden panels and installed on site."
 permalink: /visual-art/murals/asian-garden-screen-citrus-heights-ca/
+archive: true
 thumbnail: asian-garden-th.jpg
 arts:
 - image: 1.asian-garden-mural-design.jpg
