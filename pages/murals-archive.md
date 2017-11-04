@@ -1,7 +1,7 @@
 ---
-layout: archive-menu
+layout: menu
 title: Murals Archive
-description: "Archive of murals and custom installations."
-permalink: /visual-art/murals/archive/
-thumbnail: archive-th.jpg
+description: "A variety of murals and custom installations."
+permalink: /archive/visual-art/murals/
+thumbnail: murals-th.jpg
 ---
