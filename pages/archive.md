@@ -1,5 +1,5 @@
 ---
-layout: archive-menu
+layout: menu
 title: Archive
 description: ""
 permalink: /archive/
