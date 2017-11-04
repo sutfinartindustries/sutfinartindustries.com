@@ -11,7 +11,6 @@ layout: page
 		{% capture p_url_parts %} {{ p.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
 		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
 		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
-		{% unless p.archive %}
 		<li class="media">
 			<a class="pull-left" href="{{ p.url | relative_url }}">
 				<img class="media-object" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
@@ -22,7 +21,6 @@ layout: page
 				</a>
 			</div>
 		</li>
-		{% endunless %}
 		{% endif %}
 {% endfor %}
 
