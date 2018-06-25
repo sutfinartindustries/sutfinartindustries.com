@@ -6,6 +6,7 @@ body {
   color: #999;
   background-color: #222;
   font-family: 'Cabin Condensed', sans-serif;
+  font-size: large;
 }
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover{
