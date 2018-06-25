@@ -8,3 +8,5 @@ js/jquery.min.js
 notes
 Gemfile.lock
 workfiles
+vendor
+.bundle
