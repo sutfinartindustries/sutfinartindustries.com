@@ -71,3 +71,9 @@
 .featurette p a {
 	color: #940b10;
 }
+a div.featurette p.lead {
+	color: #999;
+}
+a .featurette:hover h3 span.text-muted {
+	color: #940b10;
+}
