@@ -12,7 +12,7 @@ arts:
 - image: 1.preparing-the-surface-for-the-mural.jpg
   title: "Preparing The Surface For The Mural"
 
-- image: 2.aram-larsen-at-work on-the-mural.jpg
+- image: 2.aram-larsen-at-work-on-the-mural.jpg
   title: "Aram Larsen At Work On The Mural"
 
 - image: 3.reese-at-work-on-the-ocean-waves.jpg
