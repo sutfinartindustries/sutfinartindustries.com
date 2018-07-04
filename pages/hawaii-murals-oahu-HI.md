@@ -3,7 +3,7 @@ layout: gallery
 title: "Hawaii Murals"
 location: Oahu, HI
 description: "This pair of larger than life murals are a collaboration between Eric Hawkey and Reese Sutfin under Hawkey Designs. They are painted on eight and ten story commercial buildings in Honolulu and Waikiki, Hawaii. The ocean scene is titled 'New Beginnings' and the interior landscape is titled 'Remembrance'."
-permalink: /visual-art/murals/hawaii-murals-oahu-HI/
+permalink: /visual-art/mural-gallery/hawaii-murals-oahu-HI/
 thumbnail: hawaii-murals-th.jpg
 arts:
 - image: 0.the-start-of-new-beginnings-mural.jpg

@@ -3,7 +3,7 @@ layout: gallery
 title: "Spiraling Butterflies"
 location: Citrus Heights, CA
 description: "This fun mural was created to liven up a pool area in Citrus Heights, California. The mural is a combination of painting on non-woven media and painting directly on the wall."
-permalink: /visual-art/murals/spiraling-butterflies-citrus-heights-ca/
+permalink: /visual-art/mural-gallery/spiraling-butterflies-citrus-heights-ca/
 thumbnail: butterfly-th.jpg
 arts:
 - image: 0.spiraling-butterflies-mural.jpg

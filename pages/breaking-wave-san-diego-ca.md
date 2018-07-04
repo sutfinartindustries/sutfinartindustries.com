@@ -3,7 +3,7 @@ layout: gallery
 title: "Breaking Wave"
 location: San Diego, CA
 description: "The mural was created for a pool house in Oceanside, California. The image was painted in studio on non-woven media and then installed on site."
-permalink: /visual-art/murals/breaking-wave-san-diego-ca/
+permalink: /visual-art/mural-gallery/breaking-wave-san-diego-ca/
 thumbnail: breaking-wave-th.jpg
 arts:
 - image: 0.breaking-wave-mural.jpg

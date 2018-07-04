@@ -1,0 +1,38 @@
+---
+layout: page
+---
+<style>
+div.film-strip {
+  background-color: #111;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+div.film-strip p {
+  text-align: center;
+  margin: 0px;
+  white-space: nowrap;
+}
+</style>
+<div class="container">
+	<h1>{{ page.title }}</h1>
+{% for p in site.pages %}
+		{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture num_parts %}{{ url_parts | number_of_words }}{% endcapture %}
+		{% capture p_url_parts %} {{ p.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
+		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
+		{% unless p.archive %}
+			<div class="col-lg-2 col-md-3 col-sm-4 film-strip">
+			<a href="{{ p.url | relative_url }}">
+				<img class="img-responsive center-block" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
+				<p style="color:#fff;">'{{ p.title }}'</p>
+				<p style="color:#9d9d9d;font-size:small">{{ p.location }}</p>
+			</a>
+		</div>
+
+		{% endunless %}
+		{% endif %}
+{% endfor %}
+
+</div>
