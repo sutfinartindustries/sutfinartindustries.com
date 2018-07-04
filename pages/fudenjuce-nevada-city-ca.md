@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "Fudenjüce - Nevada City, CA"
+title: "Fudenjüce"
+location: Nevada City, CA
 description: "This colorful scene was created for a vegetarian food and juice bar in Nevada City, CA. The mural was designed and painted in studio on non-woven media and then installed on the outdoor patio at their location."
 permalink: /visual-art/murals/fudenjuce-nevada-city-ca/
 thumbnail: fudenjuce-th.jpg

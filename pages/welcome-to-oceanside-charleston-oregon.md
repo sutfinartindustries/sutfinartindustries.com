@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "Welcome to Oceanside - Charleston, OR"
+title: "Welcome to Oceanside"
+location: Charleston, OR
 description: "This composition was created for the entrance to the Oceanside RV Resort. The subject matter reflects the surrounding ocean, sea life and local industries. The mural is painted directly on a corrugated metal building with additional signage added for the general store."
 permalink: /visual-art/murals/welcome-to-oceanside-charleston-oregon/
 thumbnail: oceanside-th.jpg

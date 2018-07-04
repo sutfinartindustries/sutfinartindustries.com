@@ -1,6 +1,7 @@
 ---
 layout: gallery
-title: "Ode to Arches National Park - Moab, UT"
+title: "Ode to Arches"
+location: Moab, UT
 description: "The composition of this mural pays tribute to many of the scenic wonders located in Arches National Park."
 permalink: /visual-art/murals/ode-to-arches-national-park-moab-utah/
 thumbnail: ode-to-arches-natonal-park-moab-utah-th.jpg
