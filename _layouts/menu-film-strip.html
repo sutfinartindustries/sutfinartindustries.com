@@ -23,7 +23,7 @@ div.film-strip p {
 		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
 		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
 		{% unless p.archive %}
-			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-2 film-strip">
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 film-strip">
 			<a href="{{ p.url | relative_url }}">
 				<img class="img-responsive center-block" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
 				<p style="color:#fff;">'{{ p.title }}'</p>
