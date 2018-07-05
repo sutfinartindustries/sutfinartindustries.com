@@ -3,19 +3,24 @@ layout: page
 ---
 <style>
 div.film-strip {
-  background-color: #111;
   margin-bottom: 20px;
   padding: 15px 0px;
-}
-div.film-strip p {
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
-  white-space: nowrap;
+  background-color: #111;
 }
 div.film-strip img {
   height: 150px;
   width: 150px;
+}
+div.film-strip p {
+  color:#fff;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  white-space: nowrap;
+}
+div.film-strip p span {
+  color: #9d9d9d;
+  font-size: small;
 }
 </style>
 <div class="container">
@@ -32,8 +37,8 @@ div.film-strip img {
 			<div class="col-md-2 col-sm-3 col-xs-6 film-strip">
 			<a href="{{ p.url | relative_url }}">
 				<img class="img-responsive center-block" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}">
-				<p style="color:#fff;">'{{ p.title }}'</p>
-				<p style="color:#9d9d9d;font-size:small">{{ p.location }}</p>
+				<p>'{{ p.title }}'</p>
+				<p><span>{{ p.location }}<span></p>
 			</a>
 		</div>
 

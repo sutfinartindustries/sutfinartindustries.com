@@ -1,7 +1,43 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ "/css/sai-home.css" | relative_url }}">
+<style>
+.navbar {
+	margin-bottom:0;
+}
+.jumbotron {
+	background-color: #222;
+}
+.jumbotron p {
+	text-align: center;
+	color:#999;
+}
+.jumbotron img {
+	margin: 0 auto;
+	display: block;
+}
+.marketing .col-lg-4 {
+  text-align: center;
+}
+.marketing h2 {
+  color: #fff;
+}
+.btn-default:hover {
+	background-color: #ccc;
+}
+.featurette-divider {
+  border-color: #111;
+}
+.featurette-heading {
+  color: #fff;
+}
+a div.featurette p.lead {
+	color: #999;
+}
+a .featurette:hover h3 span.text-muted {
+	color: #940b10;
+}
+</style>
 <!--Welcome-->
 <div class="jumbotron">
 <div class="container">
@@ -33,6 +69,8 @@ layout: default
       <p><a class="btn btn-default" href="{{ "/custom-signs/" | relative_url }}" role="button">View Signs &raquo;</a></p>
     </div><!-- /.col-lg-4 -->
   </div><!-- /.row -->
+</div>
+<div class="container">
   <!-- START THE FEATURETTES -->
 	<h1 class="featurette-heading">Recent Projects</h1>
   <hr class="featurette-divider">
@@ -42,7 +80,6 @@ layout: default
 				<h2 class="featurette-heading">Grand Lake Lodge -project</h2>
 				<p class="lead">Rock Mtn. National Park, CO</p>
       	<h3><span class="text-muted">Image Gallery</span></h3>
-			<!-- Recent Project Description goes below -->
 			<p class="lead"></p>
     </div>
     <div class="col-sm-5">
@@ -54,7 +91,6 @@ layout: default
 		<div class="col-sm-5 col-sm-push-7">
 			<h2 class="featurette-heading">"What a Wonderful World" -mural</h2>
 			<h3><span class="text-muted">Timelapse Video</span></h3>
-												<!-- Recent Project Description goes below -->
 			<p class="lead">Created for the Sideways Inn located in Buellton, California. The mural celebrates the music of Louis Armstrong and his song titled &quot;What a Wonderful World.&quot; Check out the timelapse video of its creation.</p>
 		</div>
 		<div class="col-sm-7 col-sm-pull-5">
@@ -67,7 +103,6 @@ layout: default
     <div class="col-sm-6">
 			<h2 class="featurette-heading">"Ode to Arches" -mural</h2>
 			<h3><span class="text-muted">Image Gallery</span></h3>
-			<!-- Recent Project Description goes below -->
       <p class="lead">Created for Canyonlands RV Resort located in Moab, Utah. The mural is a tribute to many of the scenic wonders that are in Arches National Park.</p>
     </div>
 		<div class="col-sm-1">
@@ -78,4 +113,4 @@ layout: default
   </div></a>
   <hr class="featurette-divider">
   <!-- /END THE FEATURETTES -->
-</div><!-- /.container -->
+</div>

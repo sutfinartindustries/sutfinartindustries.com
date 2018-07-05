@@ -1,7 +1,43 @@
 ---
 layout: page
 ---
+<style>
+h1,
+.media-body h4 {
+	color:#fff;
+	margin-bottom: 10px;
+  font-weight: 700;
+}
 
+.media {
+	background-color: #111;
+	border-radius: 4px;
+	padding:10px;
+}
+@media (min-width:455px) {
+  .media-body {
+    margin:0;
+  }
+}
+@media (max-width:454px) {
+  .media-body {
+    margin:0;
+    display: block;
+    width:100%;
+    max-width: 360px;
+  }
+  .media-object {
+    margin-bottom:15px;
+  }
+}
+.media-body p {
+	color: #bbb;
+	font-size: medium;
+}
+.media-body a:hover {
+	text-decoration: none;
+}
+</style>
 <div class="container">
 	<h1>{{ page.title }}</h1>
 	<ul class="media-list">

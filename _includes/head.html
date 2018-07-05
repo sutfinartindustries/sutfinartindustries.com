@@ -12,11 +12,60 @@
   {% endif %}
   <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700" rel="stylesheet">
   <!-- <link href="/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ "/css/sai.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+  <style>
+  body {
+    padding-bottom: 40px;
+    color: #999;
+    background-color: #222;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: large;
+  }
+  .navbar-default .navbar-brand,
+  .navbar-default .navbar-brand:hover{
+  	color: #940b10;
+  }
+  h2 {
+  	margin-bottom: 10px;
+  	font-weight: 700;
+  }
+  .breadcrumb {
+  	margin-top: 10px;
+  	background-color: #111;
+  }
+  .breadcrumb a {
+  	color: #fff;
+  }
+  a {
+  	color:#940b10;
+  }
+  a:hover,
+  .navbar-inverse .navbar-brand,
+  .navbar-inverse .navbar-brand:hover,
+  .breadcrumb .active,
+  .breadcrumb > li + li:before,
+  footer a,
+  .media-body h4:hover {
+      color: #940b10;
+      text-decoration: none;
+  }
+  .dropdown-menu li a:hover {
+  	background-color: #ccc;
+  }
+  footer {
+  	margin-top: 20px;
+  }
+  footer a:hover {
+  	color:#940b10;
+  	text-decoration: underline;
+  }
+  ol.breadcrumb li a {
+    text-transform: capitalize;
+  }
+  </style>
 </head>
