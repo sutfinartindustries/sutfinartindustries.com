@@ -1,0 +1,41 @@
+---
+layout: page
+---
+<style>
+.col-lg-4 {
+  text-align: center;
+	margin-bottom: 20px;
+}
+h2 {
+  color: #fff;
+}
+.btn-default:hover {
+	background-color: #ccc;
+}
+.img-thumbnail {
+	background-color: #000;
+	border: 1px solid #000;
+}
+</style>
+	<h1>{{ page.title }}</h1>
+  <div class="marketing">
+{% for p in site.pages %}
+		{% capture url_parts %} {{ page.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture num_parts %}{{ url_parts | number_of_words }}{% endcapture %}
+		{% capture p_url_parts %} {{ p.url | remove: "/index.html" | replace:'/'," " }}{% endcapture %}
+		{% capture p_num_parts %}{{ p_url_parts | number_of_words | minus: 1 }}{% endcapture %}
+		{% if p.title != page.title and p.permalink contains page.permalink and num_parts == p_num_parts %}
+		{% unless p.archive %}
+
+		  <!-- Three columns -->
+		    <div class="col-sm-4 col-lg-4">
+		      <a href="{{ p.url | relative_url }}"><img class="img-thumbnail" src="{{ site.url }}{{ site.baseurl }}{{ site.galimgdir }}{{ p.permalink }}{{ p.thumbnail }}" width="250" alt=""></a>
+		      <h2>{{ p.title }}{% if p.location %} - {{ p.location }}{% endif %}</h2>
+		      <p>{{p.description}}</p>
+		      <p><a class="btn btn-default" href="{{ p.url | relative_url }}" role="button">View  &raquo;</a></p>
+		    </div><!-- /.col-lg-4 -->
+
+		{% endunless %}
+		{% endif %}
+{% endfor %}
+</div>
