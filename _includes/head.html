@@ -2,40 +2,17 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta name="description"
+      content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 <title>{% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-<link rel="shortcut icon" href="{{"/favicon.ico" | relative_url }}">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
-<style>
-body {
-  padding-bottom: 40px;
-  color: #999;
-  background-color: #222;
-  font-family: 'Cabin Condensed', sans-serif;
-}
-nav.navbar-inverse {
-  margin-bottom: 0px;
-}
-.dropdown-menu li a:hover {
-	background-color: #ccc;
-}
-h1 {
-	color:#999;
-	margin-bottom: 20px;
-  font-weight: 700;
-  padding-left: 15px;
-}
-h2 {
-	font-weight: 700;
-}
-a {
-	color:#940b10;
-}
-a:hover {
-    color: #940b10;
-    text-decoration: none;
-}
-</style>
+<link rel="shortcut icon" href="{{"/favicon.ico" | relative_url }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700">
+{% if page.layout == 'gallery' %}
+<link rel="stylesheet" href="{{ "/css/blueimp-gallery.min.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/css/blueimp-gallery-indicator.css" | relative_url }}">
+{% endif %}
 </head>

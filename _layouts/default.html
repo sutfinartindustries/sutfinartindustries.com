@@ -3,17 +3,25 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {% include head.html %}
-
-  <body>
-
-    {% include header.html %}
-
-        {{ content }}
-
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
-
+{% include head.html %}
+<style>
+body {
+  padding-bottom: 40px;
+  color: #999;
+  background-color: #222;
+  font-family: 'Cabin Condensed', sans-serif;
+}
+h1 {
+  color:#999;
+  margin-bottom: 20px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+</style>
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+{% include scripts.html %}
+</body>
 </html>
