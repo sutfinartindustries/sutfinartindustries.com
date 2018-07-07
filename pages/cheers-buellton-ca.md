@@ -6,6 +6,8 @@ description: ""
 permalink: /visual-art/mural-gallery/cheers-buellton-ca/
 thumbnail: cheers-th.jpg
 arts:
-- image:
-  title: ""
+- image: 1-cheers-mural.jpg
+  title: "'Cheers' mural"
+- image: 2-painting-cheers-mural.jpg
+  title: "Painting 'Cheers' mural"
 ---
