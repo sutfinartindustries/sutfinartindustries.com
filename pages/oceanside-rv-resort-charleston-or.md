@@ -2,7 +2,7 @@
 layout: gallery
 title: "Oceanside RV Resort - Charleston, OR"
 description: "Oceanside Resort is located on the beach, just south of the small port town of Charleston. Our work involved designing and painting a welcoming mural at the resort’s main entrance, creating a series of theme signs for beach cottages and general store, along with a logo design and building signage for the Coos Bay Crab Company. The subject matter in the artwork reflects the surrounding landscape, local industries and points of interest of the area."
-permalink: /projects/oceanside-rv-resort-charleston-or/
+permalink: /projects-and-branding/oceanside-rv-resort-charleston-or/
 thumbnail: oceanside-rv-resort-th.jpg
 arts:
 - image: 1.front-view-of-the-oceanside-mural.jpg

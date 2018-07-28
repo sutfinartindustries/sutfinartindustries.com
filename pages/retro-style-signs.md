@@ -2,7 +2,7 @@
 layout: gallery
 title: "Retro-Style Signs"
 description: "A group of signs created with a retro style flair."
-permalink: /custom-signs/retro-style-signs/
+permalink: /custom-signs-and-cutouts/retro-style-signs/
 thumbnail: retro-style-signs-th.jpg
 arts:
 - image: 0.poolside-lounge-hanging-sign.jpg

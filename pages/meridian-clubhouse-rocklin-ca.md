@@ -2,7 +2,7 @@
 layout: gallery
 title: "Meridian Clubhouse - Rocklin, CA"
 description: "This remodel project involved a collaboration with Hawkey Designs and Matthews Construction. Our main work included the installation of 2 murals, the painting of a hanger emblem on a roll up door and the execution of floor designs for the common area and main office."
-permalink: /projects/meridian-clubhouse-rocklin-ca/
+permalink: /projects-and-branding/meridian-clubhouse-rocklin-ca/
 thumbnail: meridian-clubhouse-th.jpg
 arts:
 - image: 1.david-matthews-applying-stain-to-pinwheel-design.jpg

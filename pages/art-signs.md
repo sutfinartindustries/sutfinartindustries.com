@@ -2,7 +2,7 @@
 layout: gallery
 title: "Art Signs"
 description: "A selection of signs with cut out shapes and hand painted themes."
-permalink: /custom-signs/art-signs/
+permalink: /custom-signs-and-cutouts/art-signs/
 thumbnail: art-signs-th.jpg
 arts:
 - image: 0.youth-and-beauty-bottle-sign.jpg

@@ -2,7 +2,7 @@
 layout: gallery
 title: "Old West Theme Signs"
 description: "A mixture of hand made signs with old west style themes."
-permalink: /custom-signs/old-west-signs/
+permalink: /custom-signs-and-cutouts/old-west-signs/
 thumbnail: old-west-signs-th.jpg
 arts:
 - image: 0.pony-express-sign.jpg

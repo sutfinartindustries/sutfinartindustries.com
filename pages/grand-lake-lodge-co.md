@@ -2,7 +2,7 @@
 layout: gallery
 title: "Grand Lake Lodge - Rocky Mtn. National Park, CO"
 description: "Grand Lakes Lodge is a nationally recognized historical building, located in the Rocky Mountain National Park, in Grand Lake, CO. Our work there included; painting five murals, the curation of a permanent display of historical photographs, design support, color consulting and overseeing the clean up, repair and installation of a large collection of taxidermy."
-permalink: /projects/grand-lake-lodge-rocky-mtn-national-park-co/
+permalink: /projects-and-branding/grand-lake-lodge-rocky-mtn-national-park-co/
 thumbnail: grand-lake-lodge-th.jpg
 arts:
 - image: 1-grand-lake-lodge-painting-moose-mural-1.jpg

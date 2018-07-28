@@ -2,7 +2,7 @@
 layout: gallery
 title: "Ink"
 description: "A mixture of india ink, brush and technical pen work."
-permalink: /visual-art/ink/
+permalink: /visual-art/graphic-art-and-design/ink/
 thumbnail: ink-th.jpg
 arts:
 - image: 1.harley-davison-design-for-a-restaurant.jpg

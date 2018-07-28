@@ -2,7 +2,7 @@
 layout: gallery
 title: "Illustrations"
 description: "A sample of gouache, watercolor and acrylic ink work."
-permalink: /visual-art/illustrations/
+permalink: /visual-art/graphic-art-and-design/illustrations/
 thumbnail: illustrations-th.jpg
 arts:
 - image: 1.art-and-color-logo.jpg

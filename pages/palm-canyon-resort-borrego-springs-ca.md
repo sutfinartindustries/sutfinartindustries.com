@@ -2,7 +2,7 @@
 layout: gallery
 title: "Palm Canyon Resort - Borrego Springs, CA"
 description: "Palm Canyon Resort is surrounded by the Anza- Borrego Desert State Park, located in the most southern region of California. Our project was to give the resort an exterior makeover by creating an old western theme town, with the appearance of independent shops, businesses and other town facilities. The exterior color design on the resort weaves together a palette 17 different colors, 70 hand painted signs, 3 murals and several motifs to transform the resort into a reminiscent reminder of America's Old West."
-permalink: /projects/palm-canyon-resort-borrego-springs-ca/
+permalink: /projects-and-branding/palm-canyon-resort-borrego-springs-ca/
 thumbnail: palm-canyon-resort-th.jpg
 arts:
 - image: 0.reese-and-terri.jpg

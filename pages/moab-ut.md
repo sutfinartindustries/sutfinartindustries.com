@@ -2,7 +2,7 @@
 layout: gallery
 title: "Moab, Utah"
 description: "Some of the highlights of our projects in Moab involved a large exterior mural downtown, an interior mural of 'Landscape Arch' and the make over of an old stage coach. In addition, we handled custom theme signs, colors and props for three different RV Resort and Campgrounds; Arch View, Moab Valley and Canyonlands."
-permalink: /projects/moab-ut/
+permalink: /projects-and-branding/moab-ut/
 thumbnail: moab-ut-th.jpg
 arts:
 - image: terri-working-on-mural-mock-up.jpg

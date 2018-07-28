@@ -2,7 +2,7 @@
 layout: gallery
 title: "Signs on Buildings"
 description: "A variety of signs, images and motifs that are painted on buildings."
-permalink: /custom-signs/signs-on-buildings/
+permalink: /custom-signs-and-cutouts/signs-on-buildings/
 thumbnail: signs-on-buildings-th.jpg
 arts:
 - image: 0.hotel-sign.jpg
